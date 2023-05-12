@@ -1,0 +1,27 @@
+.plan-container {
+    display: grid;
+    grid-template: 181px / repeat(3, 137px);
+    grid-column-gap: 17px;
+}
+
+.plan-button-container {
+    margin-top: 171px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width: 957px) {
+    .plan-container {
+        grid-template: repeat(3, 97px) / 100%;
+        grid-column-gap: 0;
+        grid-row-gap: 12px;
+    }
+
+    .plan-button-container {
+        position: absolute;
+        width: 304px;
+        bottom: 8px;
+        z-index: 2;
+    }
+}

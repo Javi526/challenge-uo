@@ -1,0 +1,57 @@
+.common-container {
+    background-color: var(--Magnolia);
+    height: 100vh;
+}
+
+.button-next-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90px;
+}
+
+.button-next {
+    width: 121px;
+    height: 47px;
+    background-color: var(--Marine-blue);
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-next-disabled {
+    width: 121px;
+    height: 47px;
+    background-color: var(--Cool-gray);
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border-color: transparent;
+    cursor: not-allowed;
+    font-size: 16px;
+}
+
+.button-back {
+    width: max-content;
+    background: transparent;
+    outline: none;
+    border-color: transparent;
+    color: var(--Cool-gray);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-confirm {
+    width: 121px;
+    height: 47px;
+    background-color: var(--Purplish-blue);
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}

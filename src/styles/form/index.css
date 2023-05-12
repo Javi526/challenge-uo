@@ -1,0 +1,93 @@
+
+.form-item {
+    margin-bottom: 27px;
+}
+
+.form-item-label-and-error-message {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field {
+    width: calc(100% - 16px);
+    height: 48px;
+    padding: 0 0 0 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-gray);
+    outline: none;
+    color: var(--Marine-blue);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.field::placeholder {
+    color: var(--Cool-gray);
+    font-weight: normal;
+}
+
+.field-error {
+    width: calc(100% - 16px);
+    height: 48px;
+    padding: 0 0 0 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Strawberry-red);
+    outline: none;
+    color: var(--Marine-blue);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.field-error::placeholder {
+    color: var(--Cool-gray);
+    font-weight: normal;
+}
+
+.field:focus {
+    border: 1px solid var(--Purplish-blue);
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var(--Marine-blue);
+}
+
+.error {
+    color: var(--Strawberry-red);
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+
+
+.field-button-next-content {
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+    z-index: 2;
+}
+
+@media (max-width: 957px) {
+    .label {
+        font-size: 12px;
+    }
+
+    .form-item {
+        margin-bottom: 15px;
+    }
+    .field, .field-error {
+        border-radius: 4px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .field-button-next-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .field-button-next-content {
+        position: absolute;
+        right: auto;
+        bottom: 8px;
+    }
+}

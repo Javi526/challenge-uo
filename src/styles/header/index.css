@@ -1,0 +1,32 @@
+.header-container {
+    margin-top: 37px;
+    margin-bottom: 38px;
+}
+
+.header-title {
+   color: var(--Marine-blue);
+   margin: 0 0 14px 0;
+   font-weight: bold;
+   font-size: 29px;
+}
+
+.header-subtitle {
+    margin: 0;
+    color: var(--Cool-gray);
+}
+
+@media (max-width: 957px) {
+    .header-container {
+        margin-top: 20px;
+        margin-bottom: 22px;
+    }
+
+    .header-title {
+        font-size: 26px;
+    }
+
+    .header-subtitle {
+        width: 237px;
+        line-height: 23px;
+    }
+}
